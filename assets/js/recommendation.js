@@ -56,6 +56,7 @@ async function drinkFinder() {
 
     var getCocktailData = async function (ingredName) {
         var choices = JSON.parse(localStorage.getItem("choices"))
+        console.log(`choices: ${choices}`)
         if (!choices) {
             var ingredName = magicWord()
         } else {

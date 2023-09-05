@@ -10,17 +10,18 @@
     --fourth-color:#FFE6A7;
     --fifth-color: #6f1d1b;
 }
+
 body{
-    background-color: var(--fifth-color);
+    /* background-color: var(--fifth-color); */
 }
 header {
-    background-color: var(--first-color);
+    /* background-color: var(--first-color);
     color: var(--fourth-color);
-    padding: 5px;
+    padding: 5px; */
 }
 header h1{
-    font-size: 5vw;
-    margin: 2vw;
+    /* font-size: 5vw;
+    margin: 2vw; */
 }
 main{
     padding: 5%;
@@ -32,33 +33,33 @@ main{
     padding-bottom: 70%;
 }
 .search-here{
-    padding-top: 32%;
+    /* padding-top: 32%;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 25px; */
 }
 #search-city{
-    border: 3px solid black;
+    /* border: 3px solid black;
     width: 100%;
-    padding: 5px;
+    padding: 5px; */
 }
 .search-btn{
-    width: 100%;
+    /* width: 100%;
     background-color: var(--third-color);
-    margin-top: 15px;
+    margin-top: 15px; */
 }
 .option-btn{
-    width: 100%;
+    /* width: 100%;
     background-color: var(--third-color);
-    margin-top: 15px;
+    margin-top: 15px; */
 }
 .confirm-option {
-  width: 50%;
+  /* width: 50%;
   background-color: var(--fifth-color);
   color: var(--fourth-color);
-  padding: 5px;
+  padding: 5px; */
 }
 .modal {
-  display: none;
+  /* display: none;
   position: fixed; 
   z-index: 1; 
   padding-top: 100px; 
@@ -68,7 +69,7 @@ main{
   height: 100%;
   overflow: auto;
   background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(0,0,0,0.4); */
 }
 
 .alert-block {
@@ -77,41 +78,41 @@ main{
 
 /* Modal Content */
 .modal-content {
-  background-color: #fefefe;
+  /* background-color: #fefefe;
   margin: auto;
   padding: 20px;
   border: 1px solid #888;
-  width: 80%;
+  width: 80%; */
 }
 
 .close {
-  color: #aaaaaa;
+  /* color: #aaaaaa;
   float: right;
   font-size: 28px;
-  font-weight: bold;
+  font-weight: bold; */
 }
 
 .close:hover,
 .close:focus {
-  color: #000;
+  /* color: #000;
   text-decoration: none;
-  cursor: pointer;
+  cursor: pointer; */
 }
 
 .weather-display, .recipe-display, .ingredients-display, .directions-display{
-    background-color: var(--third-color);
+    /* background-color: var(--third-color);
     width: 50%;
     text-align: center;
-    margin: 5vw 20vw 5vw 25vw
+    margin: 5vw 20vw 5vw 25vw */
 }
 @media screen and (max-width: 980px){
     .weather-display{
-        width: 100%;
-        margin: 5vw auto 10vw auto;
+        /* width: 100%;
+        margin: 5vw auto 10vw auto; */
     }
     .recipe-display, .ingredients-display, .directions-display{
-        width: 90%;
-        margin: 5vw auto 5vw auto;
+        /* width: 90%;
+        margin: 5vw auto 5vw auto; */
     }
     .search-here{
         font-size: 20px;

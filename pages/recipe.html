@@ -7,32 +7,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <link rel="stylesheet" href="../assets/dist/output.css">
-    
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" />
     <title>Daily Cocktaily</title>
 </head>
 
-<body>
-    <header class="title-card">
-        <h1 class="text-center"><a href="../index.html">Daily Cocktaily</a></h1>
+<body class="bg-gray-200 font-sans">
+
+    <header class="bg-yellow-500 text-white py-4 shadow-md">
+        <h1 class="text-center text-2xl font-bold">
+            <a href="../index.html" class="hover:text-gray-300">Daily Cocktaily</a>
+        </h1>
     </header>
-    <main>
-        <section class="recipe-display flex justify-center flex-col p-10 rounded-md">
-            <h3 id="cocktail-name" class="text-2xl font-bold p-2">Cocktail Name Title</h3>
-            <img id="cocktail-image" src="../assets/images/sample-cocktail.jpg" alt="Cocktail Photo">
+
+    <main class="container mx-auto p-4 mt-8">
+
+        <section class="recipe-display mb-6 bg-white p-6 rounded-md shadow-md">
+            <h3 id="cocktail-name" class="text-xl font-bold mb-4">Cocktail Name Title</h3>
+            <img id="cocktail-image" src="../assets/images/sample-cocktail.jpg" alt="Cocktail Photo" class="w-full rounded-md">
         </section>
 
-        <section class="ingredients-display flex justify-center flex-col p-10 rounded-md">
-            <h3 class="text-2xl font-bold">What You'll Need</h3>
-            <ul id="ingredients-list" class="list-disc text-left">
+        <section class="ingredients-display mb-6 bg-white p-6 rounded-md shadow-md">
+            <h3 class="text-xl font-bold mb-4">What You'll Need</h3>
+            <ul id="ingredients-list" class="list-disc pl-5">
 
             </ul>
         </section>
 
-        <section class="directions-display flex justify-center flex-col p-10 rounded-md">
-            <h4 class="text-2xl font-bold">All You Have to Do is ...</h4>
+        <section class="directions-display bg-white p-6 rounded-md shadow-md">
+            <h4 class="text-xl font-bold mb-4">All You Have to Do is ...</h4>
             <p id="instructions"></p>
         </section>
+
     </main>
+
     <script src="../assets/js/recipe.js"></script>
 </body>
 
